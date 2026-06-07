@@ -732,7 +732,7 @@ export default function App() {
 
             {/* Finance: Alquiler PYG */}
             <div className="finance-section">
-              <div className="section-title">Módulo financieros</div>
+              <div className="section-title">Módulos financieros</div>
 
               <div className="expander" style={{ marginBottom: 16 }}>
                 <div className="expander-header" onClick={() => setOpenCalc(o => !o)}>
@@ -742,7 +742,6 @@ export default function App() {
                 <div className={`expander-body${openCalc ? ' open' : ''}`}>
                   <div className="input-grid">
                     <div className="input-group">
-                      {/*
                       <label className="input-label">Alquiler anual (USD)</label>
                       <input className="input-field" type="number" value={alquilerAnual}
                         onChange={e => setAlquilerAnual(e.target.value)}
@@ -802,7 +801,7 @@ export default function App() {
                   )}
                 </div>
               </div>
-              */}
+    
               {/* Finance: Renta */}
               <div className="expander">
                 <div className="expander-header" onClick={() => setOpenRenta(o => !o)}>
